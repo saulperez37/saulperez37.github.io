@@ -1,16 +1,42 @@
+body {
+    background-color: #393939;
+}
+
+.navbar {
+    background-color: #333333
+}
+
 .nav-text {
     font-family: 'Roboto Condensed', sans-serif;
     /* border-right: solid 2px #636466; */
-    letter-spacing: 3px;
-    font-size: 18px;
-    font-weight: lighter; 
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 10px;
 }
-
-.nav-text:last-child {
-    border-right: 0 none;
-  }
 
 .nav-text:hover {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
+}
+
+.logo-div {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo-icon {
+    /* position: absolute; */
+    z-index: 0;
+
+}
+
+.logo-wordmark {
+    /* position: static; */
+    z-index: 1;
+    margin-top: 18%;
+
 }
