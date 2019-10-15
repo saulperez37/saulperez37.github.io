@@ -1,9 +1,10 @@
 body {
     background-color: #393939;
+    height: 625px;
 }
 
 .navbar {
-    background-color: #333333
+    background-color: #333333;
 }
 
 .nav-text {
@@ -22,6 +23,7 @@ body {
 
 .logo-div {
     position: relative;
+    margin-top: -20px;
 }
 
 .logo {
@@ -31,12 +33,71 @@ body {
 .logo-icon {
     /* position: absolute; */
     z-index: 0;
-
+    animation: fadein 3s; 
+    margin-bottom: 50px;
+    /* margin-top: 10px; */
 }
 
 .logo-wordmark {
-    /* position: static; */
+    position: static;
     z-index: 1;
     margin-top: 18%;
+    /* animation-delay: fadein 5s; */
+    animation: fadein 6s; 
 
 }
+
+@keyframes fadein {
+    from{opacity:0;
+    }
+    to {opacity:1;
+    }
+}
+
+.footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.line-1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+    /* position: relative; */
+    /* top: 50%;   */
+    width: 18em;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 48px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(24) 1s 1 normal both,
+               blinkTextCursor 700ms steps(24) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 18em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .bd-example {
+      margin: 35px 0;
+  }
