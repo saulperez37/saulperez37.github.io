@@ -1,5 +1,6 @@
 html, body {
-    background-color: #393939;
+    background-color: #444444;
+    /* background: darkred; */
     height: 100%;
 }
 
@@ -34,7 +35,7 @@ body {
     animation: fadein 7s; 
     margin: 25px 0;
     z-index: 0;
-    position: relative;
+    /* position: relative; */
 }
 
 @keyframes fadein {
@@ -44,13 +45,20 @@ body {
     }
 }
 
+.type {
+    /* position: absolute; */
+    top: 50%;  
+    width: 100%;
+    bottom: 100px;
+    transform: translateY(-300px);    
+    z-index: 1;
+}
+
 .line-1{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     letter-spacing: 10px;
-    position: absolute;
-    top: 50%;  
-    width: 18em;
+    
     margin: 0;
     margin-top: 10px;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -58,8 +66,7 @@ body {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-300px);    
-    z-index: 1;
+   
 }
 
 .anim-typewriter{
@@ -98,4 +105,15 @@ h3 {
 
 .carousel-item {
     border: #333333 solid 7px;
+}
+
+.picture {
+    float: left;
+    margin: 30px 0;
+}
+
+.bio {
+    float: left;
+    clear: both;
+    margin: 30px 0;
 }
