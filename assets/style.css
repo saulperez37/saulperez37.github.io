@@ -55,7 +55,7 @@ body {
 
 .line-1{
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: rgb(240, 240, 240);
     letter-spacing: 10px;
     margin: auto;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -103,12 +103,40 @@ h3 {
 
 
 .picture {
-    float: left;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
+    animation: fadein 7s; 
+}
+
+.me {
+    border: #333333 solid 5px;
 }
 
 .bio {
-    float: left;
-    clear: both;
-    margin: 30px 0;
+    margin: 10px 0 40px 0;
+    /* padding: 0 200px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    animation: fadein 7s; 
 }
+
+.intro-text, .intro {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(240, 240, 240);
+    font-weight: 900;
+    margin-top: 10px;
+    animation: fadein 7s; 
+}
+
+.projects {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 13px;
+    color: rgb(240, 240, 240);
+    font-weight: 900;
+    margin-top: 40px;
+    animation: fadein 7s; 
+    line-height: 32px;
+}    
