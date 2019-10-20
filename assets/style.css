@@ -113,7 +113,6 @@ h3 {
 
 .bio {
     margin: 10px 0 40px 0;
-    /* padding: 0 200px; */
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: center;
@@ -144,7 +143,7 @@ h3 {
 
 .icon {
     width: 50px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
 }
 
 .icons{
@@ -154,8 +153,6 @@ h3 {
 .contact-info {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    /* font-size: 18px; */
-    /* letter-spacing: 1px; */
     color: rgb(240, 240, 240);
-    margin: 15px 25px 0 20px;
+    margin: 15px 25px 0 0;
 }
