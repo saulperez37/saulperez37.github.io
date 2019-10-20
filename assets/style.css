@@ -127,6 +127,7 @@ h3 {
     font-weight: 900;
     margin-top: 10px;
     animation: fadein 7s; 
+    text-align: center;
 }
 
 .projects {
@@ -140,3 +141,21 @@ h3 {
     animation: fadein 7s; 
     line-height: 32px;
 }    
+
+.icon {
+    width: 50px;
+    margin-bottom: 25px
+}
+
+.icons{
+    border-bottom: 3px #333333 dotted;
+}
+
+.contact-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* font-size: 18px; */
+    /* letter-spacing: 1px; */
+    color: rgb(240, 240, 240);
+    margin: 15px 25px 0 20px;
+}
