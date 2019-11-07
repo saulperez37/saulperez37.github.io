@@ -45,40 +45,41 @@ body {
     }
 }
 
+.line-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(240, 240, 240);
+    font-size: 3.25vw;
+    letter-spacing: .25em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+  }
+
 .type {
     position: absolute;
     top: 60%;  
     left: 50%;
-    width: 100%;
     transform: translate(-50%, -50%);    
 }
 
-.line-1{
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(240, 240, 240);
-    letter-spacing: 10px;
-    margin: auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 3.25vw;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.anim-typewriter{
+.anim-typewriter {
     animation: typewriter 4s steps(24, end) 1s 1 normal both,
                blinkTextCursor 700ms steps(24) infinite normal;
-  }
-  @keyframes typewriter{
+}
+
+@keyframes typewriter {
     from{width: 0;}
-    to{width: 18em;}
-  }
-  @keyframes blinkTextCursor{
+    to{width: 18.1em;}
+}
+
+@keyframes blinkTextCursor {
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
-  }
+}
 
-  .footer{
+.footer{
     font-family: 'Roboto Condensed', sans-serif;
     flex-shrink: 0;
     text-align: center;
